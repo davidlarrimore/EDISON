@@ -1,0 +1,194 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install' ]
+2 info using npm@2.1.10
+3 info using node@v0.10.33
+4 verbose install where, deps [ '/Users/davidlarrimore/edison/blink_app',
+4 verbose install   [ 'body-parser',
+4 verbose install     'cookie-parser',
+4 verbose install     'debug',
+4 verbose install     'express',
+4 verbose install     'jade',
+4 verbose install     'morgan',
+4 verbose install     'serve-favicon' ] ]
+5 verbose install where, peers [ '/Users/davidlarrimore/edison/blink_app', [] ]
+6 info preinstall Blink_App@0.0.0
+7 verbose already installed skipping morgan@~1.5.1 /Users/davidlarrimore/edison/blink_app
+8 verbose already installed skipping serve-favicon@~2.2.0 /Users/davidlarrimore/edison/blink_app
+9 verbose already installed skipping body-parser@~1.10.2 /Users/davidlarrimore/edison/blink_app
+10 verbose already installed skipping cookie-parser@~1.3.3 /Users/davidlarrimore/edison/blink_app
+11 verbose already installed skipping debug@~2.1.1 /Users/davidlarrimore/edison/blink_app
+12 verbose already installed skipping express@~4.11.1 /Users/davidlarrimore/edison/blink_app
+13 verbose already installed skipping jade@~1.9.1 /Users/davidlarrimore/edison/blink_app
+14 silly install resolved []
+15 info build /Users/davidlarrimore/edison/blink_app
+16 verbose linkStuff [ false, false, false, '/Users/davidlarrimore/edison' ]
+17 info linkStuff Blink_App@0.0.0
+18 verbose linkBins Blink_App@0.0.0
+19 verbose linkMans Blink_App@0.0.0
+20 verbose rebuildBundles Blink_App@0.0.0
+21 verbose rebuildBundles [ '.bin',
+21 verbose rebuildBundles   'body-parser',
+21 verbose rebuildBundles   'cookie-parser',
+21 verbose rebuildBundles   'cylon',
+21 verbose rebuildBundles   'cylon-firmata',
+21 verbose rebuildBundles   'cylon-gpio',
+21 verbose rebuildBundles   'cylon-i2c',
+21 verbose rebuildBundles   'cylon-intel-iot',
+21 verbose rebuildBundles   'debug',
+21 verbose rebuildBundles   'express',
+21 verbose rebuildBundles   'jade',
+21 verbose rebuildBundles   'morgan',
+21 verbose rebuildBundles   'serialport',
+21 verbose rebuildBundles   'serve-favicon' ]
+22 verbose rebuild bundle /Users/davidlarrimore/edison/blink_app/node_modules/cylon
+23 info build /Users/davidlarrimore/edison/blink_app/node_modules/cylon
+24 info preinstall cylon@0.22.0
+25 verbose linkStuff [ false,
+25 verbose linkStuff   false,
+25 verbose linkStuff   false,
+25 verbose linkStuff   '/Users/davidlarrimore/edison/blink_app/node_modules' ]
+26 info linkStuff cylon@0.22.0
+27 verbose linkBins cylon@0.22.0
+28 verbose linkMans cylon@0.22.0
+29 verbose rebuildBundles cylon@0.22.0
+30 verbose rebuildBundles [ 'async' ]
+31 info install cylon@0.22.0
+32 info postinstall cylon@0.22.0
+33 verbose rebuild bundle /Users/davidlarrimore/edison/blink_app/node_modules/cylon-firmata
+34 info build /Users/davidlarrimore/edison/blink_app/node_modules/cylon-firmata
+35 info preinstall cylon-firmata@0.19.0
+36 verbose linkStuff [ false,
+36 verbose linkStuff   false,
+36 verbose linkStuff   false,
+36 verbose linkStuff   '/Users/davidlarrimore/edison/blink_app/node_modules' ]
+37 info linkStuff cylon-firmata@0.19.0
+38 verbose linkBins cylon-firmata@0.19.0
+39 verbose linkMans cylon-firmata@0.19.0
+40 verbose rebuildBundles cylon-firmata@0.19.0
+41 verbose rebuildBundles [ '.bin', 'firmata' ]
+42 info install cylon-firmata@0.19.0
+43 info postinstall cylon-firmata@0.19.0
+44 verbose rebuild bundle /Users/davidlarrimore/edison/blink_app/node_modules/cylon-gpio
+45 info build /Users/davidlarrimore/edison/blink_app/node_modules/cylon-gpio
+46 info preinstall cylon-gpio@0.22.0
+47 verbose linkStuff [ false,
+47 verbose linkStuff   false,
+47 verbose linkStuff   false,
+47 verbose linkStuff   '/Users/davidlarrimore/edison/blink_app/node_modules' ]
+48 info linkStuff cylon-gpio@0.22.0
+49 verbose linkBins cylon-gpio@0.22.0
+50 verbose linkMans cylon-gpio@0.22.0
+51 verbose rebuildBundles cylon-gpio@0.22.0
+52 info install cylon-gpio@0.22.0
+53 info postinstall cylon-gpio@0.22.0
+54 verbose rebuild bundle /Users/davidlarrimore/edison/blink_app/node_modules/cylon-i2c
+55 info build /Users/davidlarrimore/edison/blink_app/node_modules/cylon-i2c
+56 info preinstall cylon-i2c@0.19.0
+57 verbose linkStuff [ false,
+57 verbose linkStuff   false,
+57 verbose linkStuff   false,
+57 verbose linkStuff   '/Users/davidlarrimore/edison/blink_app/node_modules' ]
+58 info linkStuff cylon-i2c@0.19.0
+59 verbose linkBins cylon-i2c@0.19.0
+60 verbose linkMans cylon-i2c@0.19.0
+61 verbose rebuildBundles cylon-i2c@0.19.0
+62 info install cylon-i2c@0.19.0
+63 info postinstall cylon-i2c@0.19.0
+64 verbose rebuild bundle /Users/davidlarrimore/edison/blink_app/node_modules/cylon-intel-iot
+65 info build /Users/davidlarrimore/edison/blink_app/node_modules/cylon-intel-iot
+66 info preinstall cylon-intel-iot@0.5.0
+67 verbose linkStuff [ false,
+67 verbose linkStuff   false,
+67 verbose linkStuff   false,
+67 verbose linkStuff   '/Users/davidlarrimore/edison/blink_app/node_modules' ]
+68 info linkStuff cylon-intel-iot@0.5.0
+69 verbose linkBins cylon-intel-iot@0.5.0
+70 verbose linkMans cylon-intel-iot@0.5.0
+71 verbose rebuildBundles cylon-intel-iot@0.5.0
+72 info install cylon-intel-iot@0.5.0
+73 info postinstall cylon-intel-iot@0.5.0
+74 verbose rebuild bundle /Users/davidlarrimore/edison/blink_app/node_modules/serialport
+75 info build /Users/davidlarrimore/edison/blink_app/node_modules/serialport
+76 info preinstall serialport@1.4.10
+77 verbose linkStuff [ false,
+77 verbose linkStuff   false,
+77 verbose linkStuff   false,
+77 verbose linkStuff   '/Users/davidlarrimore/edison/blink_app/node_modules' ]
+78 info linkStuff serialport@1.4.10
+79 verbose linkBins serialport@1.4.10
+80 verbose link bins [ { serialportlist: './bin/serialportList.js',
+80 verbose link bins     serialportterm: './bin/serialportTerminal.js' },
+80 verbose link bins   '/Users/davidlarrimore/edison/blink_app/node_modules/.bin',
+80 verbose link bins   false ]
+81 verbose linkMans serialport@1.4.10
+82 verbose rebuildBundles serialport@1.4.10
+83 verbose rebuildBundles [ '.bin',
+83 verbose rebuildBundles   'async',
+83 verbose rebuildBundles   'bindings',
+83 verbose rebuildBundles   'nan',
+83 verbose rebuildBundles   'node-pre-gyp',
+83 verbose rebuildBundles   'optimist',
+83 verbose rebuildBundles   'sf' ]
+84 verbose rebuild bundle /Users/davidlarrimore/edison/blink_app/node_modules/serialport/node_modules/node-pre-gyp
+85 verbose gentlyRm vacuuming /Users/davidlarrimore/edison/blink_app/node_modules/.bin/serialportlist
+86 verbose gentlyRm vacuuming /Users/davidlarrimore/edison/blink_app/node_modules/.bin/serialportterm
+87 info build /Users/davidlarrimore/edison/blink_app/node_modules/serialport/node_modules/node-pre-gyp
+88 silly gentlyRm purging /Users/davidlarrimore/edison/blink_app/node_modules/.bin/serialportlist
+89 silly gentlyRm purging /Users/davidlarrimore/edison/blink_app/node_modules/.bin/serialportterm
+90 info preinstall node-pre-gyp@0.5.19
+91 verbose linkStuff [ false,
+91 verbose linkStuff   false,
+91 verbose linkStuff   false,
+91 verbose linkStuff   '/Users/davidlarrimore/edison/blink_app/node_modules/serialport/node_modules' ]
+92 info linkStuff node-pre-gyp@0.5.19
+93 verbose linkBins node-pre-gyp@0.5.19
+94 verbose link bins [ { 'node-pre-gyp': './bin/node-pre-gyp' },
+94 verbose link bins   '/Users/davidlarrimore/edison/blink_app/node_modules/serialport/node_modules/.bin',
+94 verbose link bins   false ]
+95 verbose linkMans node-pre-gyp@0.5.19
+96 verbose rebuildBundles node-pre-gyp@0.5.19
+97 verbose rebuildBundles [ '.bin',
+97 verbose rebuildBundles   'mkdirp',
+97 verbose rebuildBundles   'nopt',
+97 verbose rebuildBundles   'npmlog',
+97 verbose rebuildBundles   'rc',
+97 verbose rebuildBundles   'request',
+97 verbose rebuildBundles   'rimraf',
+97 verbose rebuildBundles   'semver',
+97 verbose rebuildBundles   'tar',
+97 verbose rebuildBundles   'tar-pack' ]
+98 verbose rebuild bundle /Users/davidlarrimore/edison/blink_app/node_modules/serialport/node_modules/node-pre-gyp/node_modules/mkdirp
+99 verbose gentlyRm vacuuming /Users/davidlarrimore/edison/blink_app/node_modules/serialport/node_modules/.bin/node-pre-gyp
+100 info build /Users/davidlarrimore/edison/blink_app/node_modules/serialport/node_modules/node-pre-gyp/node_modules/mkdirp
+101 silly gentlyRm purging /Users/davidlarrimore/edison/blink_app/node_modules/serialport/node_modules/.bin/node-pre-gyp
+102 info preinstall mkdirp@0.5.0
+103 verbose linkStuff [ false,
+103 verbose linkStuff   false,
+103 verbose linkStuff   false,
+103 verbose linkStuff   '/Users/davidlarrimore/edison/blink_app/node_modules/serialport/node_modules/node-pre-gyp/node_modules' ]
+104 info linkStuff mkdirp@0.5.0
+105 verbose linkBins mkdirp@0.5.0
+106 verbose link bins [ { mkdirp: 'bin/cmd.js' },
+106 verbose link bins   '/Users/davidlarrimore/edison/blink_app/node_modules/serialport/node_modules/node-pre-gyp/node_modules/.bin',
+106 verbose link bins   false ]
+107 verbose linkMans mkdirp@0.5.0
+108 verbose rebuildBundles mkdirp@0.5.0
+109 verbose rebuildBundles [ 'minimist' ]
+110 verbose gentlyRm vacuuming /Users/davidlarrimore/edison/blink_app/node_modules/serialport/node_modules/node-pre-gyp/node_modules/.bin/mkdirp
+111 silly gentlyRm purging /Users/davidlarrimore/edison/blink_app/node_modules/serialport/node_modules/node-pre-gyp/node_modules/.bin/mkdirp
+112 verbose stack Error: EACCES, unlink '/Users/davidlarrimore/edison/blink_app/node_modules/.bin/serialportlist'
+113 verbose cwd /Users/davidlarrimore/edison/blink_app
+114 error Darwin 14.0.0
+115 error argv "node" "/usr/local/bin/npm" "install"
+116 error node v0.10.33
+117 error npm  v2.1.10
+118 error path /Users/davidlarrimore/edison/blink_app/node_modules/.bin/serialportlist
+119 error code EACCES
+120 error errno 3
+121 error Error: EACCES, unlink '/Users/davidlarrimore/edison/blink_app/node_modules/.bin/serialportlist'
+121 error  { [Error: EACCES, unlink '/Users/davidlarrimore/edison/blink_app/node_modules/.bin/serialportlist']
+121 error   errno: 3,
+121 error   code: 'EACCES',
+121 error   path: '/Users/davidlarrimore/edison/blink_app/node_modules/.bin/serialportlist' }
+122 error Please try running this command again as root/Administrator.
+123 verbose exit [ 3, true ]

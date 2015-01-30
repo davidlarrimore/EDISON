@@ -18,14 +18,14 @@ Cylon.robot({
   },
 
   work: function(my) {
-    every((1).second(), function() {
       my.led.toggle();
-    });
   }
-}).start();
+});
     
+Cylon.start();    
 
     res.render('cylon', { title: 'Express' });
 });
+
 
 module.exports = router;

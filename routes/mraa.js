@@ -27,9 +27,12 @@ router.get('/', function(req, res, next) {
         myOnboardLed.write(ledState); //if ledState is true then write a '1' (high) otherwise write
     }
     catch(err){
-        console.log(err.message);
+        //console.log(err.message);
+        //TODO: send error to UI
     }
-    res.render('mraa', { title: 'MRAA Blink Example', ledState: ledState, ledMessage: ledMessage });
+    finally{
+        res.render('mraa', { title: 'MRAA Blink Example', ledState: ledState, ledMessage: ledMessage });
+    }
 });
 
 module.exports = router;

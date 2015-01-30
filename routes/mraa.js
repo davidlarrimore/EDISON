@@ -7,12 +7,9 @@ console.log('MRAA Version: ' + mraa.getVersion());
 /* GET home page. */
 router.get('/', function(req, res, next) {
     var myOnboardLed = new mraa.Gpio(13);
-    //myOnboardLed.dir(mraa.DIR_IN); 
     var ledState = myOnboardLed.read();
     var ledMessage = '';
     console.log('ledState Before = ' + ledState); //write the mraa version to the Intel XDK
-
-    myOnboardLed.dir(mraa.DIR_OUT);
 
     //inverting signal
     if(ledState == 0){
@@ -24,6 +21,7 @@ router.get('/', function(req, res, next) {
     }
 
     try {
+        myOnboardLed.dir(mraa.DIR_OUT);
         myOnboardLed.write(ledState); //if ledState is true then write a '1' (high) otherwise write
     }
     catch(err){

@@ -16,7 +16,7 @@ router.get('/', function(req, res, next) {
       },
 
       work: function(my) {
-        every((1).second(), my.led.toggle);
+        my.led.toggle();
       }
     });
 

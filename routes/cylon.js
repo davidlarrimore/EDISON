@@ -5,26 +5,24 @@ var Cylon = require('cylon');
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-    
-    
-  
-Cylon.robot({
-  connections: {
-    edison: { adaptor: 'intel-iot' }
-  },
 
-  devices: {
-    led: { driver: 'led', pin: 13 }
-  },
+    Cylon.robot({
+      connections: {
+        edison: { adaptor: 'intel-iot' }
+      },
 
-  work: function(my) {
-      my.led.toggle();
-  }
-});
-    
-Cylon.start();    
+      devices: {
+        led: { driver: 'led', pin: 13 }
+      },
 
+      work: function(my) {
+        every((1).second(), my.led.toggle);
+      }
+    });
+
+    Cylon.start();    
     res.render('cylon', { title: 'Express' });
+    
 });
 
 

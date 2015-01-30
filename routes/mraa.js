@@ -25,7 +25,6 @@ router.get('/', function(req, res, next) {
 
     //console.log('ledState After = ' + ledState); //write the mraa version to the Intel XDK
     myOnboardLed.write(ledState); //if ledState is true then write a '1' (high) otherwise write
-    var ledMessage = "
     res.render('mraa', { title: 'MRAA Blink Example', ledState: ledState, ledMessage: ledMessage });
 });
 

@@ -5,8 +5,8 @@ block content
     .col-md-12.well
         .row.col-md-12
           h1#title Welcome to #{title}
-          h3#subtitle LED Pin #13 is set to #{ledState}
+          h3#subtitle LED Pin #13 is set to #{ledState} which means that #{ledMessage}
         .row.col-md-12
-            a.btn.btn-default(type='button', aria-label='Left Align')
+            a.btn.btn-default(href='/mraa' type='button', aria-label='Left Align')
               span.glyphicon.glyphicon-refresh(aria-hidden='true')
               |  Refresh

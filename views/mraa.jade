@@ -1,0 +1,9 @@
+extends layout
+
+block content
+  h1= title
+  p Welcome to #{title}
+script.
+    var ledState = <%- JSON.stringify(ledState) %>;
+      document.write('ledState= ' + ledState);
+

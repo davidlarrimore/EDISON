@@ -23,7 +23,7 @@ router.get('/', function(req, res, next) {
     //console.log('ledState After = ' + ledState); //write the mraa version to the Intel XDK
     myOnboardLed.write(ledState); //if ledState is true then write a '1' (high) otherwise write
     
-    res.render('index', { title: 'Express', ledState: ledState });
+    res.render('mraa', { title: 'Express', ledState: ledState });
 });
 
 module.exports = router;

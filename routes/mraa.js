@@ -9,7 +9,7 @@ router.get('/', function(req, res, next) {
     var myOnboardLed = new mraa.Gpio(13);
     //myOnboardLed.dir(mraa.DIR_IN); 
     var ledState = myOnboardLed.read();
-    var ledMessage;
+    var ledMessage = '';
     console.log('ledState Before = ' + ledState); //write the mraa version to the Intel XDK
 
     myOnboardLed.dir(mraa.DIR_OUT);

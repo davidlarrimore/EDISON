@@ -1,9 +1,12 @@
 extends layout
 
 block content
-  h1= title
-  p Welcome to #{title}
-script.
-    var ledState = <%- JSON.stringify(ledState) %>;
-      document.write('ledState= ' + ledState);
-
+  .container
+    .col-md-12.well
+        .row.col-md-12
+          h1#title Welcome to #{title}
+          h3#subtitle LED Pin #13 is set to #{ledState}
+        .row.col-md-12
+            a.btn.btn-default(type='button', aria-label='Left Align')
+              span.glyphicon.glyphicon-refresh(aria-hidden='true')
+              |  Refresh
